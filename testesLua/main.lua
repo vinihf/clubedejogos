@@ -36,8 +36,6 @@ function love.update(dt)
     if love.keyboard.isDown("l") and bastao2.y < (love.graphics.getHeight() - (bastao2.h+10) )then
         bastao2.y = bastao2.y+5
     end
-
-    
 end
  
 -- Draw a coloured rectangle.
